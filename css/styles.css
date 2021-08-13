@@ -1,0 +1,37 @@
+@keyframes myFirstAnimation {
+  0% {margin-left: 0%; background-position-x: 0cm;}
+  10% {margin-left: 10%; background-position-x: 1cm;}
+  20% {margin-left: 0%; background-position-x: 2cm;}
+  100% {float: inline-end;}
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+#stdimg {
+  width: 50%;
+  height: 50%;
+}
+
+h1 {
+  background-color: bisque;
+  animation-name: myFirstAnimation;
+  animation-duration: 5s;
+}
+
+p {
+  border-style:solid;
+  border-top: 10pt;
+  border-left: 10pt;
+  border-right: 10pt;
+  border-bottom: 10pt;
+
+}
+
+.container{
+  width: fit-content;
+  height: auto;
+}
+
